@@ -1,0 +1,7 @@
+﻿Cadena de Conexion:
+"Server=tcp:azurejosue.database.windows.net,1433;Initial Catalog=Progra6;Persist Security Info=False;User ID=CloudSA32c1bfb5;Password=Josuevm1701;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+
+SCAFFOLD:
+
+Scaffold-DbContext -f "Server=tcp:azurejosue.database.windows.net,1433;Initial Catalog=Progra6;Persist Security Info=False;User ID=CloudSA32c1bfb5;Password=Josuevm1701;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

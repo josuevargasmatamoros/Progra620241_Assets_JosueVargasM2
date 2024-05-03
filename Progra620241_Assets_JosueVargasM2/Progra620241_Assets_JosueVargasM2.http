@@ -1,0 +1,6 @@
+@Progra620241_Assets_JosueVargasM2_HostAddress = http://localhost:5103
+
+GET {{Progra620241_Assets_JosueVargasM2_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
